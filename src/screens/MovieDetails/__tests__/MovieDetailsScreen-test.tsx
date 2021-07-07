@@ -8,7 +8,7 @@ import { Linking } from 'react-native';
 import { mockedNavigate } from '../../../../jest/setup';
 
 // Note: test renderer must be required after react-native.
-import { cleanup, fireEvent, render } from '@testing-library/react-native';
+import { fireEvent, render } from '@testing-library/react-native';
 
 const movieMock = {
   display_title: 'string',
@@ -34,8 +34,6 @@ const movieMock = {
 };
 
 describe('MovieDetailsScreen', () => {
-  afterEach(cleanup);
-
   const component = (
     <Provider store={store}>
       <MovieDetailsScreen movie={movieMock} />
