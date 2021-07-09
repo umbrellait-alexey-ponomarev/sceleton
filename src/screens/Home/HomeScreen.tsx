@@ -7,9 +7,7 @@ import { styles } from './HomeScreen.styles';
 const HomeScreen = () => {
   return (
     <BaseLayout>
-      <Text style={styles.Text} testID="HomeScreen">
-        HomeScreen
-      </Text>
+      <Text style={styles.Text}>HomeScreen</Text>
     </BaseLayout>
   );
 };

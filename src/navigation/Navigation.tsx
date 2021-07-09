@@ -105,7 +105,6 @@ const Navigation = () => {
       <Tab.Navigator
         initialRouteName="Home"
         tabBarOptions={{
-          showLabel: false,
           style: {
             backgroundColor: black,
             height: FOOTER_HEIGHT,
