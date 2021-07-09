@@ -11,7 +11,7 @@ import { SafeAreaView } from 'react-native';
 import { black } from './src/constants/UIColors';
 import { Toast } from './src/components/elements/Toast';
 
-const rootReducer = combineReducers({
+export const rootReducer = combineReducers({
   movies: moviesReducer,
   toast: toastReducer,
 });
