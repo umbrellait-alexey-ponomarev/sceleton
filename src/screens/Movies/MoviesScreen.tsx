@@ -14,6 +14,7 @@ const MoviesScreen = () => {
     <BaseLayout style={styles.wrapper}>
       <DelayInput
         style={styles.input}
+        testID="filter"
         placeholder="Filter"
         onChangeText={setFilter}
         placeholderTextColor={grey}

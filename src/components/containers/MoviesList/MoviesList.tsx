@@ -66,6 +66,7 @@ const MoviesList: FC<Props> = ({ movies, isLoading, filter }) => {
   ) : (
     <>
       <FlatList
+        testID="scrollView"
         data={movies.results}
         renderItem={renderItem}
         keyExtractor={item => item.display_title}
