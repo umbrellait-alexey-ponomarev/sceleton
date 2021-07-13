@@ -193,7 +193,7 @@ dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
 
-    androidTestImplementation('com.wix:detox:+')
+    androidTestImplementation('com.wix:detox:+') // detox
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 
